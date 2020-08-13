@@ -1,5 +1,5 @@
 ## Exploring-Data-Acquisition-with-Android-Devices-and-Python
-Github page for my Medium.com data science article
+Github page for original Medium.com data science article
 - link: https://medium.com/@draymo/exploring-data-acquisition-and-trajectory-tracking-with-android-devices-and-python-9fdef38f25ee
 
 At a glance, we will:
@@ -9,7 +9,7 @@ At a glance, we will:
 - Double integrate the earth frame accelerations with respect to time to calculate the x,y,z positions of the phone.
 - 3D plot the trajectory of the phone, and observe the motion drift from the accelerometer.
 - Perform a Fourier analysis of the acceleration signals to examine the noise spectrum in each accelerometer axis.
-- Create a high-pass filter to attenuate low frequency noise, and perform a inverse Fourier transform to calculate new accelerations with 
+- Create a high-pass filter to attenuate low frequency noise, and perform a inverse Fourier transform to calculate new accelerations with
 - less noise.
 - 3D plot trajectory, and add x,y,z axis vectors to indicate phone pose.
 
